@@ -1,5 +1,7 @@
 # simple-web-service
 
+This is a Frontend dashboard made to vizualize and admin the bussiness logic from a electronic invoice maker.
+You can see a deployed versión (it does not have data) on the web: https://simple-vd.web.app/
 
 ## Empezando 🚀 
 Esta guia tiene como fin entregar al usuario el paso a paso para llevar a cabo la ejecución del proyecto simple-web-service. Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba.
