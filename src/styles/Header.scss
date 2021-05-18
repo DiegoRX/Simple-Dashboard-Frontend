@@ -1,0 +1,23 @@
+.header {
+    align-items: center;
+    background-color: #0a1a40;;
+    color: black;
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+    grid-area: header;
+    box-shadow: 1px 1px 32px -19px rgba(0,0,0,0.75);
+  }
+.header__img {
+    height: 65px;
+  }
+  .header-menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  .header-menu li {
+    padding: 15px;
+  }

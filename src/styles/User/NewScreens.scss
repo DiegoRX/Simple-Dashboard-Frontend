@@ -1,0 +1,36 @@
+
+.newUser__FormContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    padding: 15px 0px;
+}
+.newUser__ButtonContainer {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 0px 30px;
+    margin-top: 13px !important;
+}
+.newUser__LineContainer{ 
+    display: flex;
+    -webkit-box-pack: justify;
+    flex-direction: column;
+    margin: 0px;
+    padding-left: 15px;
+
+}
+.newUser__LineContainer2 {
+    display: flex;
+    width: 50%;
+    height: 30px;
+}
+.newUser_FormColumn{
+    width: 50%;
+}

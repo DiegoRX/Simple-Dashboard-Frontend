@@ -1,0 +1,118 @@
+.button-1 {
+    background-color: #f01473;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;  
+    font-weight: bold; 
+    font-family: 'Muli', sans-serif;
+    height: 40px;
+    letter-spacing: 1px;
+    margin: 5px 0px;
+    padding: 5px;
+  }
+  .button-2 {
+    background-color: rgb(63, 174, 222);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;  
+    font-weight: bold; 
+    font-family: 'Muli', sans-serif;
+    height: 40px;
+    letter-spacing: 1px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 5px;
+  }
+
+
+  .button-save {
+    background-color: #00bac7;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;  
+    font-weight: bold; 
+    font-family: 'Muli', sans-serif;
+    height: 40px;
+    letter-spacing: 1px;
+    margin: auto;
+    width: 150px;
+    margin: 5px;
+    color: white;
+  }
+  .button-save:hover {
+   background-color: #02c9d3;
+  }
+  .button-cancel {
+    background-color: #f01473;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;  
+    font-weight: bold; 
+    font-family: 'Muli', sans-serif;
+    height: 40px;
+    letter-spacing: 1px;
+    margin: auto;
+    width: 150px;
+    color: white;
+  }
+  .button-cancel:hover {
+   background-color: #ff1683;
+  }
+  .confirm-button-class{
+    background-color: #00bac7;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;  
+    font-weight: bold; 
+    font-family: 'Muli', sans-serif;
+    height: 40px;
+    letter-spacing: 1px;
+    margin: auto;
+    width: 150px;
+    margin: 5px;
+    color: white;
+  }
+  .confirm-button-class:hover {
+    background-color: #02c9d3;
+   }
+  .cancel-button-class{
+    background-color: #f01473;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;  
+    font-weight: bold; 
+    font-family: 'Muli', sans-serif;
+    height: 40px;
+    letter-spacing: 1px;
+
+    width: 150px;
+    color: white;
+  }
+  .cancel-button-class:hover {
+    background-color: #ff1683;
+   }
+  .button-simple {
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 14px;  
+    font-family: 'Muli', sans-serif;
+    height: 40px;
+    letter-spacing: 1px;
+    margin: auto;
+    width: 115px;
+    margin: 5px;
+    color: white;
+    border-radius: 3px;
+  }
+  .button-simple:hover{
+    background-color: #f01473;
+    border: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  .button-link{
+    color: white;
+  }

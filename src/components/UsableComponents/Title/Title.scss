@@ -1,0 +1,37 @@
+.TitleContainer{ 
+    height: 50px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: white;
+    font-weight: bold;
+    background-color: #00bac7;
+}
+.LeftBox {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+    padding-left: 30px;
+}
+.RightBox {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: right;
+    font-weight: bold;
+    position: absolute;
+    right: 130px;
+    z-index: 1;
+}
+@media (max-width: 767px) {
+        .TitleContainer{
+      justify-content: space-between;
+      }  
+    }
+  @media (max-width: 767px) {
+    .RightBox{
+      right: 100px;
+      }
+    }

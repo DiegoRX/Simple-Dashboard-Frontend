@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+  }
+
+  .admin__container{
+    height: 100vh;
+  }
+  .login {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  .login__logo{
+    padding: 10px 0px;
+  }
+  .login__container {
+    background-color: rgba(255, 255, 255, 0.324);
+    border: 1px solid rgba(130, 129, 129, 0.289);
+    color: black;
+    padding: 5px 38px 20px;
+    min-height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .login__container--img{
+    width: 100px;
+    padding-left: 75px;
+    padding-top: 15px;
+  }
+  .login__title{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  .login__title--remember-me{
+    font-size: 20px;
+    text-align: center;
+  }
+  .login__container--form {
+    display: flex;
+    flex-direction: column;
+  }
+  .login__container--form label {
+    font-size: 14px;
+  }
+  form{
+        color: black;  
+  }
+
+  .login__container--remember-me {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .login__container--remember-me a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .login__container--form{
+    padding-bottom: 5px;
+  }
+  .login__container--social-media {
+    padding-top: 10px;
+  }
+  .login__container--social-media-title {
+    justify-content: center;
+  }
+  .login__container--social-media > div {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .login__container--social-media > div > img {
+    width: 120px;
+    margin-right: 5px;
+    height: 43px;
+  }
+  .login__container--register {
+    font-size: 14px;  
+    margin: auto;
+  }
+  .login__container--register a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;  
+    text-decoration: none;
+  }
+  .login__container--register-text{
+    font-size: 11px;
+    text-align: center;
+    color: grey;
+  }
+
+  .simple-title{
+    font-size: large;  
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+  }
+  
+  @media (max-width:600px){
+    .login{
+      padding: 0px 20px;
+    }
+  }
+  ::placeholder {
+    color: rgba(130, 129, 129, 0.289);
+  }
+  

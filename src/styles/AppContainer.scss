@@ -1,0 +1,16 @@
+.app_container{
+    display: flex;
+    grid-template-columns: 255px 1fr 1fr 1fr;
+    grid-template-rows:65px ;
+    margin: auto;
+    flex-flow: column nowrap;
+    height: 100vh;
+    // grid-template-areas: "header header header header"
+    //                      "aside dashboard dashboard dashboard";
+}  
+
+.title{
+  padding-top: 100px;
+  padding-left: 255px;
+}
+

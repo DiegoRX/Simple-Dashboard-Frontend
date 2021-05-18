@@ -1,0 +1,31 @@
+.aside_user--img{
+    text-align: center;
+  }
+  .aside_user--text{
+    padding-left: 60px;
+  }
+  .aside_container--menu{
+    padding-left: 0px;
+  }
+.Divider-root{
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+.visble{
+  display:flex;
+}
+.no-visible{
+  display:none;
+}
+.aside_container--menu ul{
+  padding-left: 0px;
+}
+.button_span{
+  margin-right: auto;
+}
+.Bold{
+  font-weight: bold;
+}

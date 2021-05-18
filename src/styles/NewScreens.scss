@@ -1,0 +1,80 @@
+.new__FormContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    padding: 15px 0px;
+}
+.new__ButtonContainer {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 13px !important;
+    width: 100%;
+    text-align: center;
+}
+.new__LineContainer{ 
+    display: flex;
+    -webkit-box-pack: justify;
+    flex-direction: column;
+    margin: 0px;
+    padding-left: 15px;
+
+}
+.new__LineContainer2 {
+    display: flex;
+    width: 50%;
+    height: 30px;
+}
+.Form__Column{
+    width: 40%;
+}
+.new__GridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    margin: auto;
+}
+.ButtonContainer{
+    padding: 1%;
+}
+.cajaUploadFoto {
+    margin: 0 auto;
+    border: 0px;
+    width: 128px;
+    height: 160px;
+}
+.upload-photo {
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    line-height: 180px;
+    color: #a7a5a5;
+    font-weight: bold;
+    background-color: #e8e8e8;
+    background-size: cover;
+    cursor: pointer;
+}
+.input[type=file] {
+    display: none;
+}
+@media screen and (max-width: 767px){
+    .new__GridContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+    .new__LineContainer2 {
+        display: flex;
+        width: 50%;
+        height: 30px;
+        justify-content: center;
+        margin: auto;
+
+    }
+    }

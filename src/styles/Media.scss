@@ -1,0 +1,31 @@
+@media (max-width: 1024px) {
+    .header {
+      background-color: white;    
+    }
+    .dashboard{
+      padding-left: 10px;
+      padding-top: 65px;
+       }
+    .Aside_block{
+      display: none;
+    }
+     .minDashboard{
+       margin: 10px 10px;
+     }  
+     .button-simple {
+        background-color: transparent;
+        border: 1px solid rgba(130, 129, 129, 11.289);
+        color: rgba(130, 129, 129, 11.289);
+    
+      }
+      .button-simple a{
+        color: rgba(130,129,129,0.289);
+        
+      }
+      .button-simple:hover{
+        background-color: #f01473;
+        border: none;
+        color: white;
+      }
+  }
+

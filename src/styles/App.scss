@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.swal2-container{
+    top: -250px !important;
+}
+.swal2-popup{
+    border-radius: 0 !important;
+    font-family: 'Roboto', sans-serif !important;
+    width: 400px !important;
+    margin-left: calc(auto + 255px) !important;
+    z-index: 9999 !important;
+}
+.swal2-icon.swal2-warning {
+    border-color: #f01473 !important;
+    color: #f01473 !important;
+}
+.swal2-title{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20px !important;
+    color: black !important;
+    font-weight: normal !important;
+}
+.title-alert{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20px !important;
+    color: black !important;
+    font-weight: normal !important;
+}
+.swal2-actions{
+    width: 360px !important;
+    padding: 0px !important; 
+}
+
+@media (max-width: 1024px){
+.swal2-popup{
+    margin: 0 auto !important
+  }
+}

@@ -1,0 +1,85 @@
+{
+    "initialState": {
+      "comercios": [
+        {
+          "nombre": "jagger",
+          "razonSocial": "Black Twist",
+          "email": "twist@jagger.com",
+          "celular": 351151815165,
+          "id": 1
+
+        },
+        {
+          "nombre": "Bolt",
+          "razonSocial": "Thunder Live",
+          "email": "thunder@live.com",
+          "celular": 456145612,
+          "id": 2
+
+        },        {
+          "nombre": "dfnjkdnsf",
+          "razonSocial": "sdfdsfd",
+          "email": "tdgs@jagfg.com",
+          "celular": 55212136,
+          "id": 3
+
+        },        {
+          "nombre": "gdfgfd",
+          "razonSocial": "fghgfh",
+          "email": "twist@jahgjgh.com",
+          "celular": 662325125,
+          "id": 4
+
+        },
+                {
+          "nombre": "goer",
+          "razonSocial": "Black Twist",
+          "email": "twist@jagger.com",
+          "celular": 351151815165,
+          "id": 5
+
+        },
+        {
+          "nombre": "Bopp",
+          "razonSocial": "Thunder Live",
+          "email": "thunder@live.com",
+          "celular": 456145612,
+          "id": 56
+
+        },        {
+          "nombre": "Jum",
+          "razonSocial": "sdfdsfd",
+          "email": "tdgs@jagfg.com",
+          "celular": 55212136,
+          "id": 6
+
+        },        {
+          "nombre": "LOP",
+          "razonSocial": "fghgfh",
+          "email": "twist@jahgjgh.com",
+          "celular": 662325125,
+          "id": 7
+
+        }
+      ],
+      "administradores": [
+        {
+          "nombre": "Carlos",
+          "email": "gesglom@gmail.com",
+          "celular": 351151815165,
+          "id": 1
+        },
+        {
+          "nombre": "Natalia",          
+          "email": "natalia@live.com",          
+          "id": 2
+        },        {
+          "nombre": "Diego",
+          "email": "dio351@gmail.com",
+          "id": 3
+        }
+      ]
+    }
+  }
+
+

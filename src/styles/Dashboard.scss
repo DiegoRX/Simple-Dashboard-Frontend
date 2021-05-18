@@ -1,0 +1,22 @@
+.dashboard{
+    padding-left: 230px;
+    padding-top: 65px;
+    background-color: #f1f1f2;
+    height: 100vh;
+     }
+   .minDashboard{
+     background-color: white;
+     margin: 20px 40px;
+     min-height: 70vh;
+     border-radius: 4px;
+     box-shadow: 1px 1px 32px -19px rgba(0,0,0,0.75);
+   }  
+.center{
+   width: 100%;
+   text-align: center;
+   padding-top: 20%;
+}
+.popup{
+  border-radius: 0;
+  background-color: aqua;
+}

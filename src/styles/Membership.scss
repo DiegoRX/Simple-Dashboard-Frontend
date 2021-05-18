@@ -1,0 +1,103 @@
+.price-table {
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+.filaTop {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: auto;
+}
+.wrapCaja {
+    flex-wrap: wrap;
+}
+.price-column {
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.price-column h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    font-size: 20px;
+    margin-top: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.price-column .list {
+    list-style: none;
+    margin: 0 20px 20px 20px;
+}
+.price-column .list li {
+    font-weight: lighter;
+    color: #747C89;
+    font-size: 15px;
+    border-bottom: 1px solid #747C89;
+    padding: 0px 0px;
+}
+.plan1_background {
+    background-color: #00bac7;
+}
+.plan2_background {
+    background-color: #e22053;
+}
+.plan3_background {
+    background-color: #0a1a40;
+}
+.plan1, .plan2, .plan3 {
+    margin-top: 30px !important;
+}
+.ColPlanes {
+    width: 300px;
+    -webkit-box-shadow: -8px 10px 15px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: -8px 10px 15px -4px rgba(0,0,0,0.42);
+    box-shadow: 0px 10px 15px -4px rgba(0,0,0,0.42);
+    padding: 12px
+}
+.price-column .list {
+    list-style: none;
+    margin: 0 20px 20px 20px;
+}
+.price {
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    color: #747C89;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-left: 0px;
+}
+@media screen and (max-width: 1040px){
+.price-table {
+    margin-bottom: 20px;
+    padding: 0 5%;
+}
+.ColPlanes {
+    width: 250px;
+    -webkit-box-shadow: -8px 10px 15px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: -8px 10px 15px -4px rgba(0,0,0,0.42);
+    box-shadow: 0px 10px 15px -4px rgba(0,0,0,0.42);
+}
+}
+@media screen and (max-width: 767px){
+.price-table {
+    padding: 0 !important;
+}
+.ColPlanes {
+    width: 70%;
+}
+}

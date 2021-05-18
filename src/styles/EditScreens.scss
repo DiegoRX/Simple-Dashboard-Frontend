@@ -1,0 +1,33 @@
+.edit__FormContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    padding: 15px 0px;
+}
+.edit__ButtonContainer {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: white;
+    padding-top: 10px;
+    margin: 0px 30px;
+    margin-top: 13px;
+}
+.edit__LineContainer{ 
+    display: flex;
+    -webkit-box-pack: justify;
+    flex-direction: column;
+    margin: 0px;
+    padding-left: 15px;
+
+}
+.edit__LineContainer2 {
+    display: flex;
+    width: 50%;
+    height: 30px;
+}

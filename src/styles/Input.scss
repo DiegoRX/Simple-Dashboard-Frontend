@@ -1,0 +1,206 @@
+.input {
+    background-color: transparent;
+    border-left: 1px solid rgba(130, 129, 129, 0.289);
+    border-top: 1px solid rgba(130, 129, 129, 0.289);
+    border-right: 1px solid rgba(130, 129, 129, 0.289);
+    border-bottom: 1px solid rgba(130, 129, 129, 0.289);
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+
+  }
+  .input45{
+    background-color: transparent;
+    border-left: 1px solid rgba(130,129,129,0.289);
+    border-top: 1px solid rgba(130,129,129,0.289);
+    border-right: 1px solid rgba(130,129,129,0.289);
+    border-bottom: 1px solid rgba(130,129,129,0.289);
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 10px;
+    width: 45%;
+    padding: 0px 10px;
+    outline: none;
+    height: 30px;
+    margin: 0.5%;
+  }
+  .input80{
+    background-color: transparent;
+    border-left: 1px solid rgba(130,129,129,0.289);
+    border-top: 1px solid rgba(130,129,129,0.289);
+    border-right: 1px solid rgba(130,129,129,0.289);
+    border-bottom: 1px solid rgba(130,129,129,0.289);
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 0px 10px;
+    outline: none;
+    height: 30px;
+    margin-right: 1%;
+  }
+  .input90{
+    background-color: transparent;
+    border-left: 1px solid rgba(130,129,129,0.289);
+    border-top: 1px solid rgba(130,129,129,0.289);
+    border-right: 1px solid rgba(130,129,129,0.289);
+    border-bottom: 1px solid rgba(130,129,129,0.289);
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    width: 288px;
+    padding: 0px 10px;
+    outline: none;
+    height: 35px;
+  }
+  .input10{
+    background-color: transparent;
+    border-left: 1px solid rgba(130,129,129,0.289);
+    border-top: 1px solid rgba(130,129,129,0.289);
+    border-right: 1px solid rgba(130,129,129,0.289);
+    border-bottom: 1px solid rgba(130,129,129,0.289);
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 10px;
+    width: 10%;
+    padding: 0px 10px;
+    outline: none;
+    height: 30px;
+  }
+  .inputDrop{
+    background-color: transparent;
+    border-left: 1px solid rgba(130,129,129,0.289);
+    border-top: 1px solid rgba(130,129,129,0.289);
+    border-right: 1px solid rgba(130,129,129,0.289);
+    border-bottom: 1px solid rgba(130,129,129,0.289);
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 0px 10px;
+    outline: none;
+    height: 30px;
+    margin: 0.5%;
+  }
+  .inputDrop90{
+    background-color: transparent;
+    border-left: 1px solid rgba(130,129,129,0.289);
+    border-top: 1px solid rgba(130,129,129,0.289);
+    border-right: 1px solid rgba(130,129,129,0.289);
+    border-bottom: 1px solid rgba(130,129,129,0.289);
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 10px;
+    width: 310px;
+    padding: 0px 10px;
+    outline: none;
+    height: 35px;
+  }
+
+
+  ////// Sliders
+.switchUser {
+  margin: 30px;
+  position: absolute;
+  display: flex;
+  width: 60px;
+  height: 34px;
+  right: 36px;
+  
+}
+
+.switchTable {
+  position: absolute;
+  /* display: flex; */
+  width: 35px;
+  height: 16px;
+  margin-top: 5px;
+  padding: 2px;
+}
+.inputCheck{
+  display: none;
+}
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#f01473;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 11px;
+  width: 11px;
+  left: 1px;
+  bottom: 5px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+@media (max-width:420px){
+  .input90{
+    background-color: transparent;
+    border-left: 1px solid rgba(130,129,129,0.289);
+    border-top: 1px solid rgba(130,129,129,0.289);
+    border-right: 1px solid rgba(130,129,129,0.289);
+    border-bottom: 1px solid rgba(130,129,129,0.289);
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    width: 205px;
+    padding: 0px 10px;
+    outline: none;
+    height: 35px;
+  }
+  .inputDrop90{
+    background-color: transparent;
+    border-left: 1px solid rgba(130,129,129,0.289);
+    border-top: 1px solid rgba(130,129,129,0.289);
+    border-right: 1px solid rgba(130,129,129,0.289);
+    border-bottom: 1px solid rgba(130,129,129,0.289);
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 10px;
+    width: 227px;
+    padding: 0px 10px;
+    outline: none;
+    height: 35px;
+  }
+}
